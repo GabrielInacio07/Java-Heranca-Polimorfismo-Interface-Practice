@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="96d94398-564a-4aa4-838f-eb166a09814b" name="Changes" comment="Primeiro exercicio lapidando conceitos de POO, como Polimorfismo -&gt; Herança -&gt; Interface">
+      <change afterPath="$PROJECT_DIR$/recap-POO-H-P/src/Model/Ex02/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recap-POO-H-P/src/Model/Ex02/Docente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recap-POO-H-P/src/Model/Ex02/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recap-POO-H-P/src/Model/Ex02/ShowDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recap-POO-H-P/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/recap-POO-H-P/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GabrielInacio07&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GabrielInacio07/modulo11-JAVA-alura.git&quot;,
+    &quot;accountId&quot;: &quot;fd04bfbe-d158-429c-b405-483f435763ae&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="3AKo31LHmlbUEuQ0Kf1ktDzGcIG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Gabriel Inácio/Documents/modulo11-JAVA-alura",
+    "onboarding.tips.debug.path": "C:/Users/Gabriel Inácio/Documents/modulo11-JAVA-alura/recap-POO-H-P/src/Main.java"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="recap-POO-H-P" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96d94398-564a-4aa4-838f-eb166a09814b" name="Changes" comment="" />
+      <created>1772350420357</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772350420357</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Iniciando módulo">
+      <option name="closed" value="true" />
+      <created>1772380654295</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1772380654295</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Iniciando módulo">
+      <option name="closed" value="true" />
+      <created>1772380732207</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1772380732208</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Iniciando módulo">
+      <option name="closed" value="true" />
+      <created>1772380777197</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1772380777197</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Primeiro exercicio lapidando conceitos de POO, como Polimorfismo -&gt; Herança -&gt; Interface">
+      <option name="closed" value="true" />
+      <created>1772380871627</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1772380871627</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Primeiro exercicio lapidando conceitos de POO, como Polimorfismo -&gt; Herança -&gt; Implementação de Interfaces" />
+    <MESSAGE value="Primeiro exercicio lapidando conceitos de POO, como Polimorfismo -&gt; Herança -&gt; Interfaces" />
+    <MESSAGE value="Iniciando módulo" />
+    <MESSAGE value="Primeiro exercicio lapidando conceitos de POO, como Polimorfismo -&gt; Herança -&gt; Interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Primeiro exercicio lapidando conceitos de POO, como Polimorfismo -&gt; Herança -&gt; Interface" />
+  </component>
+</project>

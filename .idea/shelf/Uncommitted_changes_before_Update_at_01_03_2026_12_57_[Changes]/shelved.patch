@@ -1,0 +1,98 @@
+Index: recap-POO-H-P/src/Model/Ex02/Docente.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/recap-POO-H-P/src/Model/Ex02/Docente.java b/recap-POO-H-P/src/Model/Ex02/Docente.java
+new file mode 100644
+--- /dev/null	(date 1772380511686)
++++ b/recap-POO-H-P/src/Model/Ex02/Docente.java	(date 1772380511686)
+@@ -0,0 +1,16 @@
++package Model.Ex02;
++
++public class Docente extends Pessoa implements ShowDetails{
++    private String disciplina;
++
++    public Docente(String nome, int idade, String disciplina) {
++        super(nome, idade);
++        this.disciplina = disciplina;
++    }
++
++
++    @Override
++    public void exibirDados() {
++        System.out.println("Docente: " + getNome() + " - Idade: " + getIdade() + " - Disciplina: " + disciplina);
++    }
++}
+Index: recap-POO-H-P/src/Model/Ex02/Aluno.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/recap-POO-H-P/src/Model/Ex02/Aluno.java b/recap-POO-H-P/src/Model/Ex02/Aluno.java
+new file mode 100644
+--- /dev/null	(date 1772380530275)
++++ b/recap-POO-H-P/src/Model/Ex02/Aluno.java	(date 1772380530275)
+@@ -0,0 +1,17 @@
++package Model.Ex02;
++
++public class Aluno extends Pessoa implements ShowDetails{
++
++    private double nota;
++
++    public Aluno(String nome, int idade, double nota) {
++        super(nome, idade);
++        this.nota = nota;
++    }
++
++
++    @Override
++    public void exibirDados() {
++        System.out.println("Aluno: " + getNome() + " - Idade: " + getIdade() + " - Nota: " + nota);
++    }
++}
+Index: recap-POO-H-P/src/Model/Ex02/ShowDetails.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/recap-POO-H-P/src/Model/Ex02/ShowDetails.java b/recap-POO-H-P/src/Model/Ex02/ShowDetails.java
+new file mode 100644
+--- /dev/null	(date 1772379901847)
++++ b/recap-POO-H-P/src/Model/Ex02/ShowDetails.java	(date 1772379901847)
+@@ -0,0 +1,5 @@
++package Model.Ex02;
++
++public interface ShowDetails {
++    public void exibirDados();
++}
+Index: recap-POO-H-P/src/Model/Ex02/Pessoa.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/recap-POO-H-P/src/Model/Ex02/Pessoa.java b/recap-POO-H-P/src/Model/Ex02/Pessoa.java
+new file mode 100644
+--- /dev/null	(date 1772380131484)
++++ b/recap-POO-H-P/src/Model/Ex02/Pessoa.java	(date 1772380131484)
+@@ -0,0 +1,20 @@
++package Model.Ex02;
++
++public abstract class Pessoa{
++
++    private String nome;
++    private int idade;
++
++    public Pessoa(String nome, int idade) {
++        this.nome = nome;
++        this.idade = idade;
++    }
++
++    public String getNome() {
++        return nome;
++    }
++
++    public int getIdade() {
++        return idade;
++    }
++}

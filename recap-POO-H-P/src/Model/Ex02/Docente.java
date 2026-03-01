@@ -1,0 +1,16 @@
+package Model.Ex02;
+
+public class Docente extends Pessoa implements ShowDetails{
+
+    private String disciplina;
+
+    public Docente(String nome, int idade,String disciplina) {
+        super(nome, idade);
+        this.disciplina = disciplina;
+    }
+
+    @Override
+    public void exibirDados() {
+        System.out.println("Docente: " + getNome() + " - Idade: " + getIdade() + " - Disciplina: " + disciplina);
+    }
+}
