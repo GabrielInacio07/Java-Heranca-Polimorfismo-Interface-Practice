@@ -3,6 +3,7 @@ import Model.Ex01.Bolsista;
 
 class Main{
     public static void main(String[] args) {
+        //teste
         System.out.println("EX01");
 
         Aluno student = new Aluno("Gabriel Inácio","regular");

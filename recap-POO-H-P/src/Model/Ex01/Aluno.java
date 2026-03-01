@@ -1,7 +1,7 @@
 package Model.Ex01;
 
 public class Aluno {
-
+    //teste
     private String nome;
     private String tipo;
 
