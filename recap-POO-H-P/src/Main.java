@@ -1,23 +1,22 @@
-import Model.Ex02.Aluno;
-import Model.Ex02.Docente;
-import Model.Ex03.Ebook;
-import Model.Ex03.Livro;
-import Model.Ex03.Midia;
-import Model.Ex03.Revista;
+import Model.Ex04.Email;
+import Model.Ex04.Notificacao;
+import Model.Ex04.Push;
+import Model.Ex04.SMS;
 
-class Main{
+public class Main {
     public static void main(String[] args) {
-        System.out.println("EX03");
+        System.out.println("Ex04");
 
-        Livro book = new Livro("O príncepe",2005,"Máquiavel");
-        Revista revista = new Revista("Shonen Jump",2026,14);
-        Ebook ebook = new Ebook("Clean Code",2008,"PDF");
+        Notificacao email = new Email("gabriel@email.com", "Bem-vindo", "Sua conta foi criada.");
+        Notificacao sms = new SMS("44999999999", "Código de verificação: 1234");
+        Notificacao push = new Push("Gabriel", "Promoção", "Você recebeu um desconto!");
 
-        book.showDetails();
-        revista.showDetails();
-        ebook.showDetails();
-//        Midia teste = new Midia("Hobbit","1993");
-//
-//        System.out.println(teste.gerarCodigo(teste.getTitle(),teste.getYear()));
+        email.enviar();
+        System.out.println("-----");
+
+        sms.enviar();
+        System.out.println("-----");
+
+        push.enviar();
     }
 }
