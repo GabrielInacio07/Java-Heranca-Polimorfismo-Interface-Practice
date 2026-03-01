@@ -1,23 +1,14 @@
-import Model.Ex05.Boleto;
-import Model.Ex05.CartaoCredito;
-import Model.Ex05.PIX;
+import Model.Ex06.Mensagem;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Ex05");
+        System.out.println("Ex06");
 
-        CartaoCredito credito = new CartaoCredito(9123);
-        Boleto boleto = new Boleto(10500);
-        PIX pix = new PIX(1500);
+        Mensagem notify = new Mensagem();
 
-        credito.exibirPagamento();
-        System.out.println("----------");
-
-        boleto.exibirPagamento();
-        System.out.println("----------");
-
-        pix.exibirPagamento();
-        System.out.println("----------");
+        notify.enviarMessage();
+        notify.enviarMessage("João", "Bom dia!");
+        notify.enviarMessage("Maria", "Atenção!", 2);
 
     }
 }
